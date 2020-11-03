@@ -24,3 +24,4 @@ Install **npm** to your system and use this command :
 
 Then, open this index.html file with Live Server in your browser.
 ## Screenshot
+![](screenshot/myCalculator.PNG)
