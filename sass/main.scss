@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(255, 228, 225);
+  font-family: "Red Rose", cursive;
+  font-size: medium;
+}
+h1 {
+  color: #000;
+  text-align: center;
+}
+div.total-box-calculator {
+  height: 30rem;
+  width: 30rem;
+  margin: 6rem auto;
+  background-color: rgb(51, 153, 255);
+  position: relative;
+  border-radius: 0.2rem;
+
+  .output-calculations {
+    border-radius: 5px;
+    margin-top: 16px;
+    margin-left: 30px;
+    width: 400px;
+    position: absolute;
+    height: 80px;
+    grid-column: 1/-1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 1.5rem;
+    background-color: #ffffffdc;
+  }
+
+  .rows {
+    position: absolute;
+    background-color: #e6f2ff;
+    margin-top: 8rem;
+    left: 2rem;
+    right: 2rem;
+    margin-top: 126px;
+    .row-1of5 {
+      background-color: rgb(153, 153, 153);
+      width: 4.2rem;
+      height: 4.2rem;
+      border-radius: 0.4rem;
+      float: left;
+
+      margin: 0.5rem 0.8rem 0.5rem 0.5rem; //top right bottom left
+      &:hover {
+        box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.4); //top right bottom left
+        background-color: rgb(128, 128, 128);
+      }
+    }
+    .row-small-button {
+      background-color: rgb(89, 89, 89);
+      width: 3.5rem;
+      height: 4.2rem;
+      border-radius: 0.4rem;
+      margin: 0.5rem 0.5rem 0.5rem 0.5rem; //top right bottom left
+      &:hover {
+        box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+        background-color: rgb(128, 128, 128);
+      }
+    }
+
+    .row-1of2-large {
+      background-color: rgb(89, 89, 89);
+      float: left;
+      width: 8.2rem;
+      margin: 0.5rem 0.8rem 0.5rem 0.5rem;
+      height: 4.2rem;
+      border-radius: 0.4rem;
+      &:hover {
+        box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+        background-color: rgb(64, 64, 64);
+      }
+    }
+    .row-1of2-large-equal {
+      background-color: #ff4d4d;
+      float: left;
+      width: 8.2rem;
+      margin: 0.5rem 0.8rem 0.5rem 0.5rem;
+      height: 4.2rem;
+      border-radius: 0.4rem;
+      font-weight: bold;
+      &:hover {
+        box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+        background-color: rgb(255, 26, 26);
+      }
+    }
+  }
+}

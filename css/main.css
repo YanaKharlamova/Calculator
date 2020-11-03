@@ -1,0 +1,80 @@
+body {
+  background-color: mistyrose;
+  font-family: "Red Rose", cursive;
+  font-size: medium; }
+
+h1 {
+  color: #000;
+  text-align: center; }
+
+div.total-box-calculator {
+  height: 30rem;
+  width: 30rem;
+  margin: 6rem auto;
+  background-color: #3399ff;
+  position: relative;
+  border-radius: 0.2rem; }
+  div.total-box-calculator .output-calculations {
+    border-radius: 5px;
+    margin-top: 16px;
+    margin-left: 30px;
+    width: 400px;
+    position: absolute;
+    height: 80px;
+    grid-column: 1/-1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 1.5rem;
+    background-color: #ffffffdc; }
+  div.total-box-calculator .rows {
+    position: absolute;
+    background-color: #e6f2ff;
+    margin-top: 8rem;
+    left: 2rem;
+    right: 2rem;
+    margin-top: 126px; }
+    div.total-box-calculator .rows .row-1of5 {
+      background-color: #999999;
+      width: 4.2rem;
+      height: 4.2rem;
+      border-radius: 0.4rem;
+      float: left;
+      margin: 0.5rem 0.8rem 0.5rem 0.5rem; }
+      div.total-box-calculator .rows .row-1of5:hover {
+        box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+        background-color: gray; }
+    div.total-box-calculator .rows .row-small-button {
+      background-color: #595959;
+      width: 3.5rem;
+      height: 4.2rem;
+      border-radius: 0.4rem;
+      margin: 0.5rem 0.5rem 0.5rem 0.5rem; }
+      div.total-box-calculator .rows .row-small-button:hover {
+        box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+        background-color: gray; }
+    div.total-box-calculator .rows .row-1of2-large {
+      background-color: #595959;
+      float: left;
+      width: 8.2rem;
+      margin: 0.5rem 0.8rem 0.5rem 0.5rem;
+      height: 4.2rem;
+      border-radius: 0.4rem; }
+      div.total-box-calculator .rows .row-1of2-large:hover {
+        box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+        background-color: #404040; }
+    div.total-box-calculator .rows .row-1of2-large-equal {
+      background-color: #ff4d4d;
+      float: left;
+      width: 8.2rem;
+      margin: 0.5rem 0.8rem 0.5rem 0.5rem;
+      height: 4.2rem;
+      border-radius: 0.4rem;
+      font-weight: bold; }
+      div.total-box-calculator .rows .row-1of2-large-equal:hover {
+        box-shadow: 0rem 0.5rem 0.5rem rgba(0, 0, 0, 0.4);
+        background-color: #ff1a1a; }
