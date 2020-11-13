@@ -1,5 +1,6 @@
 # Calculator
 The point of this project was to improve my skills in JavaScript, CSS, HTML and also Sass preprocessor was used (BEM methodology helped a lot to organize this process).
+Live version: https://yanakharlamova.github.io/Calculator/;
 ## Why use it?
 This calculator will be very helpful to you in solving simple calculations.
 ## Features
